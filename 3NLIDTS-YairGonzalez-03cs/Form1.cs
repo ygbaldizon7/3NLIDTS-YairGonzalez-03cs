@@ -51,5 +51,10 @@ namespace _3NLIDTS_YairGonzalez_03cs
         {
 
         }
+
+        private void btnCalcularTemps_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Ingreso valores para el calculo de temperatura");
+        }
     }
 }

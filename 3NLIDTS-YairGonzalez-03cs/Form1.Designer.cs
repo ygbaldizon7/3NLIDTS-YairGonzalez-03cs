@@ -82,6 +82,7 @@ namespace _3NLIDTS_YairGonzalez_03cs
             this.btnCalcularTemps.TabIndex = 3;
             this.btnCalcularTemps.Text = "Calcular";
             this.btnCalcularTemps.UseVisualStyleBackColor = true;
+            this.btnCalcularTemps.Click += new System.EventHandler(this.btnCalcularTemps_Click);
             // 
             // tbCelcius
             // 
